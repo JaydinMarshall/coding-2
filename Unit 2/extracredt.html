@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  gap: 10px;
+  background-color: #a35c19b0;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: bisque;
+  text-align: center;
+  padding: 60px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 2 / span 1;
+}
+
+.item6 {
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.item6 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="grid-container">
+  <div class="grid-item item1">1</div>
+  <div class="grid-item item2" style= "height: 35px;"  >3</div>
+  <div class="grid-item item3">4</div>  
+  <div class="grid-item item4">5</div>
+  <div class="grid-item item5">2</div>
+ 
+  <div class="grid-item item3">6</div> 
+  
+   
+ <div style="background-color:bisque; height: 80px; grid-column: 1 / span 3; font-size:30px; text-align: center; padding:40px" >7</div>
+ <div>
+ 
+</div>
+
+
+
+</body>
+</html>
+
