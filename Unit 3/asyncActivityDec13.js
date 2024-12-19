@@ -1,16 +1,21 @@
 1.
 
-function states(landmark){
-    if(number lacks a "-"){
-        console.log("your number is positive")
+function positiveornegative(number){
+    if(number > 0){
+        console.log("number is positive")
     }
-    else if(number possesses a "-"){
+    else if(number < 0){
         console.log("number is negative")
     }
-    else if(number is "0"){
+    else if(number === 0){
         console.log("number is zero")
     }
 }
+positiveornegative()
+
+
+
+
 
 2.
 
@@ -19,7 +24,12 @@ function movieticketprice(age) {
         return "$5.00";
 } else if (age >= 16 && age < 20) {
         return "$10.00";
-} else if (age >= 20 &&)
+} else if (age >= 20 && age < 65){
+        return "$15.00";
+  else { // age >= 
+
+  }
+}
         }
     }
 }
