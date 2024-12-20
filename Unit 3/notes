@@ -1,0 +1,34 @@
+function PasswordValidity(password){
+    if(passcode > 10){
+        console.log("password is too long")
+    }
+    else if(password < 4){
+        console.log("password is too short")
+    }
+    else if(password === 4){
+        console.log("password is valid")
+    }
+    else if(password === 5){
+        console.log("password is valid")
+    }
+    else if(password === 6){
+        console.log("password is valid")
+    }
+    else if(password === 7){
+        console.log("password is valid")
+    }
+    else if(password === 8){
+        console.log("password is valid")
+    }
+    else if(password === 9){
+        console.log("password is valid")
+    }
+    else if(password === 10){
+        console.log("password is valid")
+    }
+
+}
+    PasswordValidity(jahs)
+
+
+
