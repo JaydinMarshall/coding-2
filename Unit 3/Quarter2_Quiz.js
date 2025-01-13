@@ -69,3 +69,19 @@ function PasswordValidity(password){
 
 }   FederalIncomeTax() 
 
+
+// a list is a unique grouping data type that allows use to collect and organize data in one variable
+
+// lists can contain virtually all data types simultaniously 
+
+
+
+ 
+ 
+ const Grocery = ['apple', 'water', 'milk', 'paper towels', 'dish soap'];
+
+Grocery.findIndex(checkGrocery);
+
+function checkGrocery(Grocery) {
+  return Grocery > 18;
+}
