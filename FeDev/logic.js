@@ -1,3 +1,5 @@
-<script>
-document.getElementById("demo").innerHTML = "JS file connected";
-</script>
+console.log("js connected")
+
+var msg = "welcome to Front End Development"
+
+document.getElementById("demo").innerHTML = "Welcome to front end development";
